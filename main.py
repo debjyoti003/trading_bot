@@ -16,7 +16,7 @@ st.set_page_config(
 
 st.title("Trading Chatbot")
 
-openai_llm = ChatOpenAI(streaming = True, temperature = 0, model_name = 'gpt-3.5-turbo')
+openai_llm = ChatOpenAI(streaming = True, temperature = 0, model_name = 'ft:gpt-3.5-turbo-0613:personal::8FeSw7Cz')
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
